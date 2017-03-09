@@ -8,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent implements OnInit {
 
   homeTitle = "Welcome to dekz directory!";
+  inputValue = "this is a string";
+  inputRequired = true;
 
   constructor() { }
 
